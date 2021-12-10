@@ -30,9 +30,22 @@ html, body{
 	margin: 0;
     background-color: #192734;
 }
-h2{
+.Color h2{
     position: absolute;
 top: 50px;
+left: 50px;
+
+font-family: Rubik;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 7px;
+
+color: #E5E5E5;
+}
+.Dye h2{
+    position: absolute;
+top: 2750px;
 left: 50px;
 
 font-family: Rubik;
@@ -67,4 +80,26 @@ color: var(--mainText);
  margin:5px;
  color: var(--mainText);
 }
+.line-margin2{
+width: 200px;   
+position: absolute;
+left: 48px;
+top: 2790px;
 
+border: 1px solid #A6A6A6;
+transform: rotate(180deg);
+}
+.dye-ids-wrapper {
+font-family: mont;
+margin-top: 105px;
+column-count:auto;
+color: var(--mainText);
+}
+.dye-ids-wrapper li {
+ 
+list-style:none;
+background-color:#9d9d9d2b;
+text-align:center;
+margin:5px;
+color: var(--mainText);
+}
